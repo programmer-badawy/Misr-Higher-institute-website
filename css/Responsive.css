@@ -1,0 +1,73 @@
+
+
+
+
+
+/* Smartphones (portrait and landscape) */
+@media only screen and (max-width: 990px) {
+    .container{
+        width: 100%;
+        overflow-y:hidden ;
+    }
+
+
+
+.parent header nav,
+.parent header .container .fa-solid.fa-circle-user{
+display: none;
+}
+.parent header{
+    display: flex;
+    justify-content: space-between;
+}
+.fa-solid.fa-bars{
+    display: block;
+    /* border: 1px solid white; */
+    width: 70%;
+    text-align: left;
+}
+
+.parent .banner{
+    height: 74vh;
+}
+
+.Departments .container{
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+}
+
+/* Tablets and iPads (portrait and landscape) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    
+    .parent .banner{
+        height: 85vh;
+    }
+
+    .Departments .container{
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .Departments .container .dep {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .Departments .container .dep .dep-content {
+        font-size: 20px;
+        height:100%;
+        width: 100%;
+    }
+
+
+
+
+}
+
+/* Desktops and larger screens */
+@media only screen and (min-width: 1025px) {
+    .parent .banner{
+        height: 91vh;
+    }
+}

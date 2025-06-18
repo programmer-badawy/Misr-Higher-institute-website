@@ -1,0 +1,151 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.header-banner {
+    position: relative;
+    height: 180px;
+    background-image: url('../media/intro.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    direction: rtl;
+}
+
+.arrow-left {
+    transform: rotate(90deg);
+    display: inline-block;
+}
+
+.header-banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.header-banner .overlay {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+
+
+}
+
+.header-banner h1 {
+    font-size: 35px;
+    display: flex;
+    font-weight: bold;
+
+}
+
+.header-banner p {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #f2c64d;
+    display: flex;
+    font-weight: bold;
+
+
+}
+
+.hr {
+    width: 90px;
+    border: none;
+    border-top: 3px solid rgb(9, 8, 8);
+
+}
+
+.header-banner a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+
+.header-banner p:hover {
+    color: #e8aa0c;
+}
+
+.division {
+    background-color: darkgrey;
+    margin-top: 40px;
+
+}
+
+.title {
+    margin-right: 120px;
+margin-top: 50px;
+}
+
+.title span {
+    color: #95782b;
+}
+
+#hr {
+    width: 90px;
+    border: none;
+    border-top: 3px solid rgb(9, 8, 8);
+    margin-right: 120px;
+
+}
+
+.Captureimg{
+    border: 1px solid #004b91;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+/*الشعب الدراسية*/
+.major-box {
+    background-color: #f2f1ed;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+    height: 100%;
+
+}
+
+.major-box:hover {
+    transform: translateY(-5px);
+}
+
+.major-icon {
+    font-size: 40px;
+    color: #004b91;
+    margin-bottom: 10px;
+}
+
+.major-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.read-more {
+    color: #aa7b00;
+    font-weight: bold;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.read-more i {
+    margin-right: 5px;
+}

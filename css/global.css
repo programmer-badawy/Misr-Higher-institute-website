@@ -1,0 +1,214 @@
+
+
+
+/* s header */
+ header{
+    background-color: #ffffff;
+    /* background-color: #050033bb; */
+    backdrop-filter: blur(6PX);
+    width: 100%;
+    height: 100px;
+    box-shadow: 0 1px 10px #050033;
+    z-index: 999;
+    
+}
+ header .container{
+    /* padding: 20px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ header .container .fa-solid.fa-circle-user{
+color: #050033;
+font-size: 30px;
+
+}
+ header .container .fa-solid.fa-circle-user:hover{
+    color: #c28e00;
+    cursor: pointer;
+}
+.fa-solid.fa-bars{
+color: #050033;
+font-size: 25px;
+display: none;
+cursor: pointer;
+}
+
+.nav-links {
+    position:absolute;
+    top: 100px; /*ارتفاعالشريط*/
+    list-style-type: none;
+    left: 0;
+    background-color: #080055;
+    backdrop-filter: blur(6px);
+    flex-direction: column;
+    width: 300px;
+    max-height: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    z-index: 999;
+}
+.nav-links.show {
+    max-height: 300px; /* إظهار القائمة عند الضغط */
+    padding: 20px 0;
+}
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+    border-bottom:2px solid #08005525;
+    width: 80%;
+    text-align: center;
+}
+.nav-links a:hover {
+  color: #c28e00;
+    border-bottom-color: #c28e0057;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+}
+
+
+
+
+  header nav{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+  header nav a{
+    text-decoration: none;
+    color: #080055;
+    font-size: 1em;
+    font-weight: 700;
+}
+  header nav a:hover{
+    color: #c28e00;
+}
+  header .logo{
+    /* border: 1px solid red; */
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    max-width: 100px;
+}
+  header .logo img{
+    /* width: 100%; */
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Smartphones (portrait and landscape) */
+@media only screen and (max-width: 990px) {
+
+
+
+
+    header nav,
+    header .container .fa-solid.fa-circle-user{
+display: none;
+}
+    header{
+  display: flex;
+  justify-content: space-between;
+}
+.fa-solid.fa-bars{
+  display: block;
+  /* border: 1px solid white; */
+  width: 70%;
+  text-align: left;
+}
+}
+
+
+/* Tablets and iPads (portrait and landscape) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  
+
+
+
+
+
+
+
+
+}
+
+/* Desktops and larger screens */
+@media only screen and (min-width: 1025px) {
+
+}
+
+/* e header */
+
+
+
+
+
+
+
+/* s footer */
+
+.footer {
+  background: #0a1128;
+  color: #fff;
+  padding: 40px 0;
+}
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  
+}
+.footer a:hover,
+.footer i:hover {
+  text-decoration: underline;
+  /* color: rgb(145, 145, 208); */
+  color: #c28e00;
+  cursor: pointer;
+}
+.footer .icon {
+  font-size: 20px;
+  margin-left: 10px;
+  
+}
+.footer-logo {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+.footer-logo img {
+  width: 110px;
+  margin-left: 10px;
+}
+
+/* e footer */
+
+
+

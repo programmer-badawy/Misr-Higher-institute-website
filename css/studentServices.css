@@ -1,0 +1,101 @@
+body{
+    background-color: #0a1128;
+    
+}
+header{
+    position: fixed;
+}
+aside{
+    font-size: 1.1em;
+    background-color: rgb(252, 252, 252);
+    height: 100%;
+    position: fixed;
+    top: 100px;
+    padding: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+aside a{
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 3px solid gray;
+}
+main{
+    font-size: 1.1em;
+    color: aliceblue;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    height: fit-content;
+    background-color: #0a1128;
+    padding: 20px;
+    
+    
+}
+main h1{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.5;
+}
+main a.stda{
+
+    margin: 50px auto;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: #c28e00;
+    
+    padding: 20px;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+main a.stda:hover{
+    font-weight: 600;
+    background-color: #daa000;
+}
+
+main div.sched{
+    background-color: #c28e00;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+main div.sched h1{
+    color: #002828;
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+
+main iframe{
+    width: 100%;
+    height: 600px;
+}
+a{
+    color:black ;
+}
